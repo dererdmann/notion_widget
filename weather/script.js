@@ -61,7 +61,7 @@ function dark() {
 	document.documentElement.setAttribute('data-theme', 'gray');
 	document.getElementById('weather').setAttribute('data-theme', 'gray');
 	document.getElementById('weather').setAttribute('data-basecolor', '#191919');
-	document.getElementById('weather').removeAttribute('data-textcolor');
+	document.getElementById('weather').removeAttribute('data-textcolor', '#ffffff');
 	document.getElementById('weather').setAttribute('data-cloudfill', '#191919');
 	document.getElementById('weather').setAttribute('data-suncolor', '#F58f70');
 	script(document, 'script', 'weatherwidget-io-js');
