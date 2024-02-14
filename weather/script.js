@@ -51,7 +51,7 @@ function light() {
 	document.documentElement.setAttribute('data-theme', 'pure');
 	document.getElementById('weather').setAttribute('data-theme', 'pure');
 	document.getElementById('weather').removeAttribute('data-basecolor');
-	document.getElementById('weather').setAttribute('data-textcolor', '#37352f');
+	document.getElementById('weather').setAttribute('data-textcolor', '#ffffff');
 	document.getElementById('weather').removeAttribute('data-cloudfill');
 	document.getElementById('weather').setAttribute('data-suncolor', '#F58f70');
 	script(document, 'script', 'weatherwidget-io-js');
