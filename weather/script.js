@@ -50,7 +50,7 @@ if (currentTheme == 'pure') {
 function light() {
 	document.documentElement.setAttribute('data-theme', 'pure');
 	document.getElementById('weather').setAttribute('data-theme', 'pure');
-	document.getElementById('weather').removeAttribute('data-basecolor');
+	document.getElementById('weather').removeAttribute('data-basecolor','"rgba(0, 0, 0, 0.05)"');
 	document.getElementById('weather').setAttribute('data-textcolor', '#ffffff');
 	document.getElementById('weather').removeAttribute('data-cloudfill');
 	document.getElementById('weather').setAttribute('data-suncolor', '#F58f70');
@@ -60,7 +60,7 @@ function light() {
 function dark() {
 	document.documentElement.setAttribute('data-theme', 'gray');
 	document.getElementById('weather').setAttribute('data-theme', 'gray');
-	document.getElementById('weather').setAttribute('data-basecolor', '#191919');
+	document.getElementById('weather').setAttribute('data-basecolor', '"rgba(0, 0, 0, 0.05)"');
 	document.getElementById('weather').removeAttribute('data-textcolor', '#ffffff');
 	document.getElementById('weather').setAttribute('data-cloudfill', '#191919');
 	document.getElementById('weather').setAttribute('data-suncolor', '#F58f70');
